@@ -5,8 +5,8 @@ import path from "node:path";
 
 // inputPath the file we are reading from 
 //outputPath where we want our file 
-const inputPath = path.join("/Users/Ikshita/javascript-basics", "data.csv");
-const outputPath = path.join("/Users/Ikshita/javascript-basics", "data.json");
+const inputPath = path.join("/Users/Ikshita/javascript-basics/convert", "script.csv");
+const outputPath = path.join("/Users/Ikshita/javascript-basics/convert", "script.json");
 
 // Reads the csv file then takes a callback function if error it will stop the code and print error reading the csv file if not
 // it will move to next part of the code 
